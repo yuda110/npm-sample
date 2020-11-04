@@ -1,0 +1,28 @@
+{
+  "name": "sample-package-name",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types" : "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuda110/npm-sample-package.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuda110/npm-sample-package/issues"
+  },
+  "homepage": "https://github.com/yuda110/npm-sample-package#readme",
+  "devDependencies": {
+    "@types/pluralize": "0.0.29",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "pluralize": "^8.0.0"
+  }
+}
